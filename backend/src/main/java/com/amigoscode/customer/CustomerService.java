@@ -1,8 +1,8 @@
 package com.amigoscode.customer;
 
-import com.amigoscode.customer.exception.DuplicateResource;
-import com.amigoscode.customer.exception.RequestValidationException;
-import com.amigoscode.customer.exception.ResourceNotFound;
+import com.amigoscode.exception.DuplicateResource;
+import com.amigoscode.exception.RequestValidationException;
+import com.amigoscode.exception.ResourceNotFound;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 

@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 import java.util.Random;
 
 @SpringBootApplication
-public class SpringBootExampleApplication {
+public class   SpringBootExampleApplication {
 
    public static void main(String[] args) {
       SpringApplication.run(SpringBootExampleApplication.class, args);
