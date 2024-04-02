@@ -1,0 +1,31 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "containerDefinitions": [
+    {
+      "name": "spring-boot-example",
+      "image": "anup111/spring-boot-example:latest",
+      "essential": true,
+      "memory": 512,
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 8080
+        }
+      ],
+        "environment": [
+            {
+            "name": "SPRING_DATASOURCE_URL",
+            "value": "jdbc:postgresql://postgres.crocwkqoyyoj.ap-south-1.rds.amazonaws.com:5432/customer"
+            },
+          {
+            "name": "SPRING_DATASOURCE_USERNAME",
+            "value": "amigoscode"
+          },
+          {
+            "name": "SPRING_DATASOURCE_PASSWORD",
+            "value": "password"
+          }
+        ]
+    }
+  ]
+}
