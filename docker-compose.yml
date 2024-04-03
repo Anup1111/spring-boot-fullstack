@@ -15,8 +15,8 @@ services:
     restart: unless-stopped
 
   spring-boot-example:
-    container_name: spring-boot-example
-    image: anup111/spring-boot-example
+    container_name: amigoscode-api
+    image: amigoscode/amigoscode-api
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/customer
     ports:
