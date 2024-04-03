@@ -36,5 +36,3 @@ jobs:
           cache: 'maven'
       - name: Build and run Unit/Integration Tests with Maven
         run: mvn -ntp -B verify
-      - name: Build and push Docker image
-        run: mvn compile jib:build -Djib.to.auth.username=${{ secrets.DOCKERHUB_USERNAME }} -Djib.to.auth.password=${{ secrets.DOCKERHUB_PASSWORD }}
