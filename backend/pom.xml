@@ -174,14 +174,14 @@
                 <executions>
                     <execution>
                         <phase>package</phase>
-                        <goals>
+<!--                         <goals>
                             <goal>build</goal>
-                        </goals>
+                        </goals> -->
                     </execution>
                 </executions>
                 <configuration>
                     <from>
-                        <image>openjdk:17</image>
+                        <image>temurin:17</image>
                         <platforms>
                             <platform>
                                 <architecture>arm64</architecture>
