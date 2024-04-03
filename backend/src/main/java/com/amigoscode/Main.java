@@ -12,10 +12,10 @@ import org.springframework.context.annotation.Bean;
 import java.util.Random;
 
 @SpringBootApplication
-public class   SpringBootExampleApplication {
+public class Main {
 
    public static void main(String[] args) {
-      SpringApplication.run(SpringBootExampleApplication.class, args);
+      SpringApplication.run(Main.class, args);
    }
 
    @Bean
